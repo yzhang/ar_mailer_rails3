@@ -2,7 +2,7 @@
 
 A two-phase delivery agent for ActionMailer which works for Rails 3.
 
-Forked from http://github.com/adzap/ar_mailer/wikis
+Forked from http://github.com/adzap/ar_mailer/
 
 Rubyforge Project:
 
@@ -14,11 +14,11 @@ http://seattlerb.org/ar_mailer
 
 and for forked additions
 
-http://github.com/adzap/ar_mailer_rails3/wikis
+http://github.com/yzhang/ar_mailer_rails3/wikis
 
 Bugs:
 
-http://adzap.lighthouseapp.com/projects/26997-ar_mailer
+http://github.com/yzhang/ar_mailer_rails3/issues
 
 == About
 
