@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'ar_mailer_rails3/ar_sendmail'
+
+ArMailerRails3::ARSendmail.run
+
