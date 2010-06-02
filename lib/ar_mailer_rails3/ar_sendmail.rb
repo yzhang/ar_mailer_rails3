@@ -467,7 +467,7 @@ class ArMailerRails3::ARSendmail
         cleanup
         emails = find_emails
         deliver(emails) unless emails.empty?
-      rescue ActiveRecord::Transactions::TransactionError
+      rescue
       end
       break if @once
       sleep @delay
