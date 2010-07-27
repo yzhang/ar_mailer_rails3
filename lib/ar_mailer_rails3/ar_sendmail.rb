@@ -256,7 +256,7 @@ class ArMailerRails3::ARSendmail
 
     Dir.chdir options[:Chdir] do
       begin
-        require 'config/environment'
+        require Dir.pwd + '/config/environment'
         require 'ar_mailer_rails3/active_record'
       rescue LoadError
         usage opts, <<-EOF
