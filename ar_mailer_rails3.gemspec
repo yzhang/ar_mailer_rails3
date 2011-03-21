@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ar_mailer_rails3}
-  s.version = "2.1.10"
+  s.version = "2.1.11"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Yuanyi Zhang"]
-  s.date = %q{2010-07-27}
+  s.date = %q{2011-03-21}
   s.default_executable = %q{ar_sendmail_rails3}
   s.description = %q{ArMailer wrapper for Rails 3}
   s.email = %q{zhangyuanyi@gmail.com}
@@ -33,7 +33,10 @@ Gem::Specification.new do |s|
      "lib/generators/ar_mailer_rails3/templates/ar_mailer.rb",
      "lib/generators/ar_mailer_rails3/templates/migration.rb",
      "lib/generators/ar_mailer_rails3/templates/model.rb",
-     "lib/smtp_tls.rb"
+     "lib/smtp_tls.rb",
+     "test/test_armailer.rb",
+     "test/test_arsendmail.rb",
+     "test/test_helper.rb"
   ]
   s.homepage = %q{http://github.com/yzhang/ar_mailer_rails3}
   s.rdoc_options = ["--charset=UTF-8"]
