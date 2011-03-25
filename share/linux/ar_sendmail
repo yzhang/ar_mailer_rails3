@@ -29,7 +29,7 @@ def start(app, options)
   switches = ""
   options.each {|k, v| switches << " --#{k} #{v}"}
   STDOUT.write "Starting mailer for #{app} in #{options['environment']} mode ... "
-  status = system("ar_sendmail -d #{switches}") ? "started" : "failed"
+  status = system("ar_sendmail_rails3 -d #{switches}") ? "started" : "failed"
   puts status
 end
 
@@ -74,5 +74,5 @@ if ['start', 'stop', 'restart'].include?(command)
     send(command, app, options)
   end
 else
-  command_error "Usage: ar_sendmail {start|stop|restart} [optional app_name]"
+  command_error "Usage: ar_sendmail_rails3 {start|stop|restart} [optional app_name]"
 end

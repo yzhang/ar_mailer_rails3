@@ -11,7 +11,7 @@
 
 . /etc/rc.subr
 
-name="ar_sendmail"
+name="ar_sendmail_rails3"
 rcvar=`set_rcvar`
 
 command="/usr/local/bin/ar_sendmail"
